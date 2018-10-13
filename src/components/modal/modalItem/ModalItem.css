@@ -1,0 +1,36 @@
+.modalLayout {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  grid-column-gap: 30px;
+  justify-content: right;
+  align-items: center;
+  margin-bottom: 10px;
+  flex: 90%;
+}
+
+.img-lay {
+  object-fit: contain;
+  width: 100%;
+}
+
+.modalFlex {
+  display: flex;
+
+}
+
+.minusButton {
+  flex: 10%;
+  border:none;
+  background: none;
+  outline: none;
+  cursor: pointer
+}
+
+.minusLogo {
+  font-size: 13px;
+  padding: 0;
+  margin: auto 0;
+}
